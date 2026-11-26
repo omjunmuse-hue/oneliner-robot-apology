@@ -9,7 +9,9 @@
 import { mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
-const ENTRY = "I am sorry I watered the wrong plant.\nI learned to be more careful and will do better.";
+// The apology, sharpened: the mistake is now a specific, human-scale
+// slip, and the lesson follows from exactly that slip — roots before water.
+const ENTRY = "Sorry — I watered your plastic plant every day for a month, and filed the real one as deceased.\nI learned that green is not the same as alive; now I check for roots before anyone gets the water.";
 
 // The gate's shape, checked before handing in.
 const chars = [...ENTRY].length;
